@@ -1,0 +1,37 @@
+# Игнорируем файлы, связанные с Docker
+Dockerfile
+.dockerignore
+# Don't index SpecStory auto-save files, but allow explicit context inclusion via @ references
+.specstory/**
+
+.env
+.node_modules
+.git
+.idea
+
+
+# Игнорируем локальные зависимости, они будут установлены внутри контейнера
+node_modules
+
+# Игнорируем логи и временные файлы
+npm-debug.log
+*.log
+
+# Игнорируем файлы IDE и системные файлы
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Игнорируем артефакты сборки, они будут созданы внутри контейнера
+dist
+
+# Игнорируем переменные окружения
+.env
+.env.local
+
+# Игнорируем файлы Git
+.gitignore 

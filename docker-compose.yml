@@ -1,0 +1,20 @@
+services:
+  liquibase:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: seedkey-migrations
+    environment:
+      - LIQUIBASE_COMMAND_URL=jdbc:postgresql://localhost:5432/seedkey
+      - LIQUIBASE_COMMAND_USERNAME=postgres
+      - LIQUIBASE_COMMAND_PASSWORD=123
+      - LIQUIBASE_LOG_LEVEL=INFO
+    network_mode: host
+    # Alternative for an external Docker network:
+#     networks:
+#       - network-1
+
+# networks:
+#   network-1:
+#     name: network-1
+#     external: true
