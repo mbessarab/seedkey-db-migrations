@@ -1,4 +1,4 @@
-name: seedkey-db-migrations: release
+name: seedkey-db-migrations
 
 on:
   push:
@@ -54,4 +54,3 @@ jobs:
           name: seedkey-db-migrations ${{ steps.tag_version.outputs.new_tag }}
           body: ${{ steps.tag_version.outputs.changelog }}
           generate_release_notes: false
-
