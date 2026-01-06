@@ -115,13 +115,14 @@ spec:
     DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
 ```
 
-## 🧩 Связанные репозитории
+## 🧩 Связные проекты
 
-- **`seedkey-auth-service`** — self-hosted решение в виде готового сервиса.
-- **`seedkey-auth-service-helm-chart`** — Helm chart для разворачивания `seedkey-auth-service` + `seedkey-auth-service-migrations`.
-- **`seedkey-sdk-server`** — библиотека для самостоятельной реализации сервиса.
-- **`seedkey-browser-extension`** — браузерное расширение.
-- **`seedkey-sdk-client`** — библиотека для работы с расширением и отправки запросов на бэкенд.
+Ознакомьтесь также с другими репозиториями экосистемы:
+- [seedkey-browser-extension](https://github.com/mbessarab/seedkey-browser-extension) — браузерное расширение.
+- [seedkey-auth-service](https://github.com/mbessarab/seedkey-auth-service) — self-hosted сервис аутентификации.
+- [seedkey-server-sdk](https://github.com/mbessarab/seedkey-server-sdk) — серверная библиотека для самостоятельной реализации сервиса.
+- [seedkey-client-sdk](https://github.com/mbessarab/seedkey-client-sdk) — клиентская библиотека для работы с расширением.
+- [seedkey-auth-service-helm-chart](https://github.com/mbessarab/seedkey-auth-service-helm-chart) — Helm Chart для развёртывания `seedkey-auth-service` + миграций.
 
 ## 📄 Лицензия
 

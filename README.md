@@ -114,13 +114,14 @@ spec:
     DATABASE_PASSWORD: ${{ secrets.DATABASE_PASSWORD }}
 ```
 
-## 🧩 Related repositories
+## 🧩 Related Projects
 
-- **`seedkey-auth-service`** — self-hosted solution as a ready-to-run service.
-- **`seedkey-auth-service-helm-chart`** — Helm chart to deploy `seedkey-auth-service` + `seedkey-auth-service-migrations`.
-- **`seedkey-sdk-server`** — library for implementing the service yourself.
-- **`seedkey-browser-extension`** — browser extension.
-- **`seedkey-sdk-client`** — library to work with the extension and send requests to the backend.
+Also check out other repositories in the ecosystem:
+- [seedkey-browser-extension](https://github.com/mbessarab/seedkey-browser-extension) — browser extension.
+- [seedkey-auth-service](https://github.com/mbessarab/seedkey-auth-service) — self-hosted authentication service.
+- [seedkey-server-sdk](https://github.com/mbessarab/seedkey-server-sdk) — server-side library for implementing the service yourself.
+- [seedkey-client-sdk](https://github.com/mbessarab/seedkey-client-sdk) — client library for working with the extension.
+- [seedkey-auth-service-helm-chart](https://github.com/mbessarab/seedkey-auth-service-helm-chart) — Helm chart for deploying `seedkey-auth-service` + migrations.
 
 ## 📄 License
 
